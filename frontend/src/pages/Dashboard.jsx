@@ -27,6 +27,7 @@ export default function Dashboard() {
           <h2 className="text-xl font-bold text-blue-600">CRM Dashboard</h2>
         </div>
         <nav className="flex-1 px-4 py-6 space-y-3">
+           <a href="/" className="block text-gray-700 hover:text-blue-600">🏠 Dashboard</a>
           <a href="/kb/1" className="block p-2 rounded hover:bg-blue-100">📘 KB</a>
           <a href="/hr" className="block p-2 rounded hover:bg-blue-100">👥 HR</a>
           <a href="/payroll" className="block p-2 rounded hover:bg-blue-100">💰 Payroll</a>
